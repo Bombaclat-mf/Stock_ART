@@ -1,5 +1,9 @@
 import streamlit as st
-import plotly.express as pe,yfinance as yf
+
+import plotly.express as pe
+
+import yfinance as yf
+
 import datetime as dt
 date=dt.datetime.today()
 ys = date - dt.timedelta(days=7)
